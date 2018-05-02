@@ -16,4 +16,10 @@ public class Fahrenheit extends Temperature {
     public Temperature toFahrenheit() {
         return this;
     }
+
+    public String toString()
+    {
+        // TODO: Complete this method
+        return this.getValue()+" F";
+    }
 }

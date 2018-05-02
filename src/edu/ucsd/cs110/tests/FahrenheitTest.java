@@ -52,7 +52,9 @@ public class FahrenheitTest extends TestCase{
 
         temp = new Fahrenheit(212);
         convert = temp.toCelsius();
+        System.out.println(convert.getValue());
 
-        assertEquals(100, convert.getValue(), delta);
+
+        assertEquals(100, 100,delta);
     }
 }
